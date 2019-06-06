@@ -8,7 +8,7 @@ html(lang='pt-br')
 
     //- Title
     //- ===================================
-    title
+    title Voxus - Teste front-end
 
     //- Favicon and SVG logo
     //- ===================================
@@ -19,6 +19,57 @@ html(lang='pt-br')
     //- Scripts are places at the end of body for performance reasons
 
   body
+
+  nav.nav
+    .DEF_wrapper
+      a.nav__logo(href="/")
+        img.nav__logo__img(src="assets/img/logo.svg", alt="Logo da Voxus")
+
+  main.main
+
+    .main__content.DEF_wrapper
+      .main__content__head
+        h2.main__content__head__title Você está a poucos passos de otimizar suas campanhas!
+        span.main__content__head__desc Queremos conhecer mais sobre sua empresa para melhorar sua experiência com a Voxus.
+
+      form.main__content__form(action="")
+        label.main__content__form__label(for="nomeCompleto") Nome completo
+        input.main__content__form__input(type="text", name="nome-completo" id="nomeCompleto" placeholder="Nome completo")
+
+        label.main__content__form__label(for="telefone") Telefone
+        input.main__content__form__input(type="tel", name="telefone" id="telefone" placeholder="Telefone")
+
+        label.main__content__form__label(for="email") Endereço de Email
+        input.main__content__form__input(type="text", name="email" id="email" placeholder="Endereço de Email")
+
+        label.main__content__form__label(for="nomeEmpresa") Nome da empresa
+        input.main__content__form__input(type="text", name="nome-empresa" id="nomeEmpresa" placeholder="Nome da Empresa")
+
+        label.main__content__form__label(for="urlSite") URL do site
+        input.main__content__form__input(type="url", name="url-site" id="urlSite" placeholder="URL do site")
+
+        select.main__content__form__input(name="verbaMensalMidia")
+          option(value="" selected="true" disabled="disabled") Verba mensal em mídia
+          option(value="") <= R$5.000
+          option(value="") >= R$5.001 e <= R$30.000
+          option(value="") >= R$30.001 e <= R$100.000
+          option(value="") >= R$100.001 e <= R$500.000
+          option(value="") >= R$500.001
+          option(value="") Não se aplica
+
+        input.main__content__form__submit(type="submit" value="Experimentar gratuitamente")
+
+    footer.footer
+      .DEF_wrapper
+        a.footer__logo(href="/")
+          img.footer__logo__img(src="assets/img/logo-pb.svg", alt="Logo voxus")
+
+        a.footer__link(href="") Termos de serviço
+        a.footer__link(href="") Política de privacidade
+        a.footer__link(href="") Opções de anúncio
+
+
+
     //- JS scripts
     //- ===================================
     script(async, src='js/index.min.js')

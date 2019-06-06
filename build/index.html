@@ -6,14 +6,33 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="format-detection" content="telephone=no">
-    <title></title>
+    <title>Voxus - Teste front-end</title>
     <link rel="shortcut icon" href="assets/img/favicon.ico">
     <link rel="logo" type="image/svg" href="assets/img/logo.svg">
 </head>
 
-<body>
+<body></body>
+<nav class="nav">
+    <div class="DEF_wrapper"><a class="nav__logo" href="/"><img class="nav__logo__img" src="assets/img/logo.svg" alt="Logo da Voxus"></a></div>
+</nav>
+<main class="main">
+    <div class="main__content DEF_wrapper">
+        <div class="main__content__head">
+            <h2 class="main__content__head__title">Você está a poucos passos de otimizar suas campanhas!</h2><span class="main__content__head__desc">Queremos conhecer mais sobre sua empresa para melhorar sua experiência com a Voxus.</span></div>
+        <form class="main__content__form" action=""><label class="main__content__form__label" for="nomeCompleto">Nome completo</label><input class="main__content__form__input" type="text" name="nome-completo" id="nomeCompleto" placeholder="Nome completo"><label class="main__content__form__label"
+                for="telefone">Telefone</label><input class="main__content__form__input" type="tel" name="telefone" id="telefone" placeholder="Telefone"><label class="main__content__form__label" for="email">Endereço de Email</label><input class="main__content__form__input"
+                type="text" name="email" id="email" placeholder="Endereço de Email"><label class="main__content__form__label" for="nomeEmpresa">Nome da empresa</label><input class="main__content__form__input" type="text" name="nome-empresa" id="nomeEmpresa"
+                placeholder="Nome da Empresa"><label class="main__content__form__label" for="urlSite">URL do site</label><input class="main__content__form__input" type="url" name="url-site" id="urlSite" placeholder="URL do site"><select class="main__content__form__input"
+                name="verbaMensalMidia"><option value="" selected="true" disabled="disabled">Verba mensal em mídia</option><option value=""><= R$5.000</option><option value="">>= R$5.001 e <= R$30.000</option><option value="">>= R$30.001 e <= R$100.000</option><option value="">>= R$100.001 e <= R$500.000</option><option value="">>= R$500.001</option><option value="">Não se aplica</option></select>
+            <input
+                class="main__content__form__submit" type="submit" value="Experimentar gratuitamente"></form>
+    </div>
+    <footer class="footer">
+        <div class="DEF_wrapper"><a class="footer__logo" href="/"><img class="footer__logo__img" src="assets/img/logo-pb.svg" alt="Logo voxus"></a><a class="footer__link" href="">Termos de serviço</a><a class="footer__link" href="">Política de privacidade</a><a class="footer__link"
+                href="">Opções de anúncio</a></div>
+    </footer>
     <script async src="js/index.min.js"></script>
-</body>
+</main>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
 <link rel="stylesheet" href="assets/css/style.min.css">
 

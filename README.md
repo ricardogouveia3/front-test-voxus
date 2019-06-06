@@ -1,4 +1,5 @@
-# Gulp Boilerplate
+# front-test-voxus
+
 
 This project uses:
 
@@ -11,7 +12,7 @@ This project uses:
 
 ### Installation
 
-First of all, install the dependencies to run this boilerplate.
+First of all, install the dependencies to run this.
 
 - [NodeJS](http://nodejs.org/)
 - [Gulp](https://gulpjs.com/)
@@ -19,8 +20,8 @@ First of all, install the dependencies to run this boilerplate.
 ```sh
 
 # Clone this repository
-git clone git@github.com:ricardogouveia3/gulp-boilerplate.git
-cd gulp-boilerplate
+git clone git@github.com:ricardogouveia3/front-test-voxus.git
+cd front-test-voxus
 
 # install dependencies
 npm install
